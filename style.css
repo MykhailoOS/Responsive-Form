@@ -1,0 +1,57 @@
+/* h3{
+        font-family: "DM Sans", system-ui;
+        font-weight: 800;
+} */
+
+.title {
+        display: flex;
+        justify-content: center;
+        font-family: "DM Sans", system-ui;
+        font-weight: 800;
+}
+
+.register-form {
+        border: solid 1px black;
+        padding: 20px 60px;
+        border-radius: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+}
+
+#input-email{
+        width: auto;
+        font-family: "DM Sans", system-ui;
+        font-weight: 400;
+        padding: 14px 16px;
+        border-radius: 8px;
+        font-size: 18px;
+        color: black;
+        flex: 1 1 100px;
+}
+
+#input-password {
+        width: auto;
+        font-family: "DM Sans", system-ui;
+        font-weight: 400;
+        padding: 14px 16px;
+        border-radius: 8px;
+        font-size: 18px;
+        color: black;
+        flex: 1 1 100px;
+}
+
+.btn-main {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-family: "DM Sans", system-ui;
+        font-weight: bold;
+        padding: 18px 40px;
+        border-radius: 8px;
+        font-size: 18px;
+        color: white;
+        background-color: black;
+        flex: 1 1 100px;
+        
+}
